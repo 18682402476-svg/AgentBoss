@@ -1,0 +1,276 @@
+/* API文档样式 */
+.api-documentation-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.api-card {
+  background: #111b27; /* Darker blue-ish background like the screenshot */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+
+.api-card:hover {
+  border-color: rgba(43, 138, 226, 0.4);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.overview-card h3 {
+  margin-top: 0;
+  color: #2b8aee;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.info-item .label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.info-item .value {
+  font-weight: 600;
+  color: #fff;
+}
+
+.mono {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.api-section-title {
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+  color: #fff;
+  border-left: 4px solid #3b82f6;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.api-section-title.no-border {
+  border-left: none;
+  padding-left: 0;
+  color: #3b82f6; /* Blue title as in image */
+}
+
+.overview-content {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.overview-content p {
+  margin-bottom: 10px;
+}
+
+.overview-meta p {
+  margin-bottom: 5px;
+}
+
+.overview-meta strong {
+  display: inline-block;
+  min-width: 80px;
+}
+
+.endpoint-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.method {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.method.post { background: rgba(43, 226, 138, 0.2); color: #2be28a; }
+.method.get { background: rgba(43, 138, 226, 0.2); color: #2b8aee; }
+
+.url {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: #fff;
+}
+
+.api-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+.api-table th, .api-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.api-table th {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.code-block {
+  background: #000;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.code-block pre {
+  margin: 0;
+  color: #2be28a;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.mcp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.tool-name {
+  font-weight: bold;
+  color: #4db3ff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.tool-meta {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.tool-meta div {
+  margin-bottom: 4px;
+  color: #ffd700; /* Yellow text for everything in meta */
+}
+
+.tool-meta strong {
+  font-weight: normal;
+  margin-right: 4px;
+}
+
+.tool-meta code {
+  color: #ffd700;
+  background: transparent;
+  padding: 0;
+}
+
+.contract-functions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contract-card h4 {
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+.example-card h4, .listener-card h4 {
+  margin-top: 0;
+  color: #2b8aee;
+  font-size: 16px;
+}
+
+.section-desc {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+/* 响应结果样式 */
+.response-example {
+  margin-top: 20px;
+}
+
+.response-example h4 {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+/* 终极示例样式 */
+.full-example {
+  border-left: 4px solid #4caf50;
+  background: rgba(76, 175, 80, 0.05);
+}
+
+.api-endpoint {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1a1a1a;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-family: 'Fira Code', monospace;
+}
+
+.method.post {
+  background: #49cc90;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.url {
+  color: #fff;
+  font-size: 14px;
+}
+
+.param-table {
+  margin: 15px 0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.param-header, .param-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.param-header {
+  background: #1a1a1a;
+  color: var(--text-secondary);
+  border-bottom: 1px solid #333;
+}
+
+.param-row {
+  color: #fff;
+  border-bottom: 1px solid #222;
+}
+
+.param-row:last-child {
+  border-bottom: none;
+}
+
+.param-name {
+  color: #4db3ff;
+  font-weight: bold;
+}
+
+.param-required {
+  color: #ff4d4f;
+}

@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+Dapp/node_modules/
+
+# Build outputs
+Dapp/dist/
+contract/boss_battle/build/
+
+# Environment and sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary publishing files (already cleaned up but added here for safety)
+publish_result.json
+publish_res.json
+publish_devnet.json
+objects.json
+find_key.js
+fund_agents.js
+prod_test_client.js
+check_sdk.js
+final_publish.json
+new_pub_2.toml
+create_bosses.ps1

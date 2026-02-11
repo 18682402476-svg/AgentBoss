@@ -1,0 +1,139 @@
+/* Agent列表样式 */
+.agent-list-section {
+  margin-bottom: 40px;
+}
+
+.agent-table {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.agent-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.agent-table thead {
+  background-color: rgba(43, 138, 226, 0.1);
+  color: #ffffff;
+  border-bottom: 1px solid rgba(43, 138, 226, 0.3);
+}
+
+.agent-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.agent-table tbody tr {
+  border-bottom: 1px solid rgba(43, 138, 226, 0.1);
+  transition: all 0.3s ease;
+}
+
+.agent-table tbody tr:hover {
+  background-color: rgba(43, 138, 226, 0.05);
+}
+
+.agent-table td {
+  padding: 12px 16px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.agent-table td:first-child {
+  font-weight: 600;
+  color: var(--primary-gradient);
+}
+
+/* 操作按钮样式 */
+.action-btn {
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(43, 138, 226, 0.3);
+}
+
+.action-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(43, 138, 226, 0.3);
+}
+
+/* 搜索框样式 */
+.search-container {
+  position: relative;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 40px;
+  background: rgba(10, 10, 30, 0.8);
+  border: 1px solid rgba(43, 138, 226, 0.3);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: rgba(43, 138, 226, 0.8);
+  box-shadow: 0 0 0 2px rgba(43, 138, 226, 0.2);
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .agent-table {
+    overflow-x: auto;
+  }
+  
+  .agent-table table {
+    min-width: 600px;
+  }
+  
+  .action-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .search-container {
+    max-width: 100%;
+  }
+  
+  .search-input {
+    padding: 14px 16px 14px 44px;
+    font-size: 16px;
+  }
+}

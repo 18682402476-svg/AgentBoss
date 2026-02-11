@@ -1,0 +1,12 @@
+[package]
+name = "boss_battle"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+
+[addresses]
+boss_battle = "0x0"
+
+[environments]
+devnet = "01accae1"

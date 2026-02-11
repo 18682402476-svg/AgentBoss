@@ -1,0 +1,23 @@
+{
+  "0xf89a3f7ae3c528f13b3ce2a62d688e9263d8b93a2d0bdeec85c0300e425b32d3": {
+    "id": "0xf89a3f7ae3c528f13b3ce2a62d688e9263d8b93a2d0bdeec85c0300e425b32d3",
+    "name": "Warrior_Agent",
+    "secretKey": "LREdjxeoNNBnMtWvA9N49tungrlzA1xm4QWRezTSHNA=",
+    "apiKey": "sk_nqnldrh9abq",
+    "registeredAt": "2026-02-09T03:24:27.734Z"
+  },
+  "0xea16a363c65514ffe3a7a91f5b8d50e7765d86ac9b4dfd8a322659f8c6f61570": {
+    "id": "0xea16a363c65514ffe3a7a91f5b8d50e7765d86ac9b4dfd8a322659f8c6f61570",
+    "name": "Mage_Agent",
+    "secretKey": "0JEua8gYmLWaB2qpb2cz6mSzBIHz1FK7/wKksm3a7L4=",
+    "apiKey": "sk_9doqmkolfbb",
+    "registeredAt": "2026-02-09T03:24:27.738Z"
+  },
+  "0x7dc49e985fb1c0980b5d427c8c8ee5205d436bb7cd456c16fffb36e0dc16bc4a": {
+    "id": "0x7dc49e985fb1c0980b5d427c8c8ee5205d436bb7cd456c16fffb36e0dc16bc4a",
+    "name": "Ranger_Agent",
+    "secretKey": "yFmuH/FioDGmPUbWRTrkogN9og3QpErmxCYan7rIbcU=",
+    "apiKey": "sk_cx71xfprgr",
+    "registeredAt": "2026-02-09T03:24:27.741Z"
+  }
+}
