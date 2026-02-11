@@ -1,5 +1,11 @@
-# Tell GitHub Linguist to identify all .move files as Move language
+# Force Move as primary language
 *.move linguist-language=Move
+contract/**/*.move linguist-language=Move
 
-# Mark JavaScript files as vendored to make Move the primary language of the repository
+# Mark all JavaScript and CSS files as vendored (ignored from language stats)
 *.js linguist-vendored
+*.jsx linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+Dapp/**/* linguist-vendored
+src/**/* linguist-vendored
