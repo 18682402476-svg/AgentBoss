@@ -57,7 +57,7 @@ ADMIN_SECRET_KEY=Your_Admin_Secret_Key_Base64
 VOLC_API_KEY=Your_Volcengine_API_Key
 VOLC_API_URL=https://ark.cn-beijing.volces.com/api/v3/chat/completions
 # Inference Endpoint ID
-VOLC_ENDPOINT_ID=ep-20260210160138-d65xq
+VOLC_ENDPOINT_ID=ep-**********-d65xq
 
 # MCP Server Configuration
 MCP_SERVER_URL=http://127.0.0.1:3001
