@@ -18,7 +18,7 @@ Before starting, ensure your development environment has the following tools ins
 
 1. **Clone the project**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/18682402476-svg/AgentBoss
    cd AgentBoss
    ```
 
